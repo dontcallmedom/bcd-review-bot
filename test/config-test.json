@@ -1,0 +1,6 @@
+{
+  "hookPath": "/",
+  "hookPort": "8888",
+  "ghHookSecret": "test",
+  "ghAuthToken": "test"
+}
