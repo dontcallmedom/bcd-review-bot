@@ -1,4 +1,7 @@
 {
+  "name": "bcd-review-bot",
+  "version": "0.0.1",
+  "description": "Github webhook to auto-assign reviewers on pull requests to Browser Compatibility Data",
   "dependencies": {
     "github-webhook-handler": "^0.7.1",
     "octokat": "^0.10.0"
@@ -8,5 +11,9 @@
     "mocha": "^5.2.0",
     "nock": "^10.0.2",
     "supertest": "^3.3.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "run": "node index.js"
   }
 }
